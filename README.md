@@ -81,12 +81,39 @@ Now you can edit to your hearts content and Git will track all of your changes. 
 
 ## Committing Changes
 
-
-
-## Pushing (Pushing up local changes to server)
+```
+$ git commit -a -m 'message that describes the change'
+```
 
 ## Pulling (Pulling down server info to local machine)
 
+```
+$ git pull
+```
+
+## Pushing (Pushing up local changes to server)
+
+```
+$ git push
+```
+
+
 ## Pull Request (Submitting Lab Assignments)
+
+Using the GitHub interface. 
+
+
+## Review
+
+Here is a quick overview of todays lab. For all future labs, the work-flow will be as follows:
+
+* Fork repo to your account if not already there 
+* Clone repo to your local machine (`git clone url/to/repo`)
+* Navigate to repo (using `cd` and `ls`)
+* Add files if needed (`git add filename`)
+* Commit any new changes as you go (`git commit -a -m 'message'`)
+* Pull new changes from server (`git pull`)
+* Push your changes to server (`git push`)
+* Submit assignment with pull request (using GitHub interface)
 
 
