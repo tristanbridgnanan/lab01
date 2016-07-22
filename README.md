@@ -16,4 +16,4 @@ This is where cloning comes in. You need to copy (or clone) the `lab01` repo int
 
 1. Open `Git Bash` on your machine.
 
-hello world!!
+hello
