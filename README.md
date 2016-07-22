@@ -1,6 +1,6 @@
 # Lab 01 -- Getting started with Git
 
-In this lab we will be introduced to delivery method of all labs, daily assignments, and projects. This method will rely on learning `git`. According to [Wikipedia](https://en.wikipedia.org/wiki/Git_(software)), "Git (/ɡɪt/) is a version control system that is used for software development and other version control tasks. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows." Basically, it is a more sophisticated Dropbox and allows you to keep your code up to date across multiple platforms.
+In this lab we will be introduced to delivery method of all labs, daily assignments, and projects. This method will rely on learning `git`. According to [Wikipedia](https://en.wikipedia.org/wiki/Git_(software)), "Git (/ɡɪt/) is a version control system that is used for software development and other version control tasks. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows." Basically, it is a more sophisticated Dropbox and allows you to keep your code up to date across multiple platforms. A complete walk through of Git can be found online at [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2). In this lab we will only learn the basics. 
 
 Follow the instructions below to complete the lab.
 
@@ -41,19 +41,47 @@ You see? All of the files are there! This is great right? Now you have a local c
 
 ## Why should I care about `Git`?
 
-* version control
-* helps keep track of conflicts on collaborative projects
-* Complete history
-* 
+The main reason right now is because we will be using it to turn in assignments during this class. But besides that it is a very powerful tool that will help future you be successful. Here are a few reasons why git is great:
 
+* Version control, keeps all machines upto date with latest code
+* Helps keep track of conflicts on collaborative projects
+* Complete history of your projects
+* Easy testing without breaking your code
 
+On top of this, git manages all of your files for you. but to do this it has to know your file is there. Hence you have to add new files.
 
 ## Adding Files
 
+Let's do some text editing. So all of us are on the same page, download and install [https://atom.io/](https://atom.io/). Once installed, open up this lab repo. Atom is just another text editor. Throughout this semester we will be exposed to a variety of editors. At some point you just need to pick your favorite. 
+
+Let's create a new file. Do the following:
+
+1. Use Atom to create a new file in `~/lab01/` called `MyFirstJavaCode.java`.
+2. Cut and paste the following into the file:
 ```
-$ git add
+public class MyFirstJavaCode {
+   public static void main(String[] args) {
+      // Prints whatever you want in the terminal window.
+      System.out.println("Hello, World");
+   }
+}
+```
+3. Change `"Hello, World"` to whatever you want. Make sure and keep the quotes. Save this file.
+4. At this point Git does not even know your file exists. To see what I mean run the following in Git Bash:
+```
+$ git status
+```
+You see? Untracked files! In order for Git to track your files, you need to add it. So let's do that:
+```
+$ git add MyFirstJavaCode.java
+```
+Typing `git status` again should show you that there is a new file being tracked. 
+
+Now you can edit to your hearts content and Git will track all of your changes. But how are the changes tracked?
 
 ## Committing Changes
+
+
 
 ## Pushing (Pushing up local changes to server)
 
