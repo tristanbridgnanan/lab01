@@ -8,10 +8,10 @@ Follow the instructions below to complete the lab.
 
 If you don't already have an account, you will need a GitHub account. You can do so here: [https://github.com/](https://github.com/). 
 
-## Cloning a repo
+## Cloning and Forking a Repo
 
-First, what is a repo and why would you want to clone it? Repo is short for repository which is basically a directory of files and folders. Think of your GitHub account as a large folder containing other folders (repos). Each repo is a different project, or in this case, lab. If you just created a GitHub account, then you don't have any repos yet. We are going to change that.
+First, what is a repo and why would you want to do these things to it? __Repo__ is short for repository which is basically a directory of files and folders. Think of your GitHub account as a large folder containing other folders (repos). Each repo is a different project, or in this case, lab. If you just created a GitHub account, then you don't have any repos yet. We are going to change that.
 
 This is where cloning comes in. You need to copy (or clone) the `lab01` repo into your account. This way you can edit/add files. To do this we need to do the following:
 
-1. Open `git bash` on your machine. 
+1. Open `Git Bash` on your machine. 
