@@ -39,11 +39,27 @@ $ ls
 
 You see? All of the files are there! This is great right? Now you have a local copy of the repo sitting on your machine. No matter what you do, you will not mess up the originals. All of your edits/changes will be local on your machine until you push your changes back to the server. So let's do that.
 
-## Pushing
+## Why should I care about `Git`?
 
-## Pulling
+* version control
+* helps keep track of conflicts on collaborative projects
+* Complete history
+* 
 
-## Pull Request (Submitting Assignments)
+
+
+## Adding Files
+
+```
+$ git add
+
+## Committing Changes
+
+## Pushing (Pushing up local changes to server)
+
+## Pulling (Pulling down server info to local machine)
+
+## Pull Request (Submitting Lab Assignments)
 
 
 
