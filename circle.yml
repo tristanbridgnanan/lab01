@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - javac HelloWorld.java
+    - javac MyFirstJavaCode.java
