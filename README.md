@@ -22,16 +22,17 @@ __From now on, this is the first thing you should do when you start a lab in thi
 
 So now what? You have a forked repo sitting on some server. How do you get your hands on it? Well you could use the GitHub interface, but that is lame. So we need to get the files to your local machine. There are several ways to do this, but the cool kids like to clone. __Cloning__ is just copying and pasting the repo to your local machine. To do this we need to get our hands a little dirty with the following steps.
 
-1. Open `Git Bash` on your machine. This is a command line interface that allows you to communicate with GitHub.
-2. Look for a green button on this page that says `Clone or download`, click it, and copy the text. It should look something like this: `https://github.com/csc-171/lab01.git`. 
-3. Go back to Git Bash and enter the following (note, don't enter the `$`, it's just there to tell you that is the start of the line):
+* Open `Git Bash` on your machine. This is a command line interface that allows you to communicate with GitHub.
+* Look for a green button on this page that says `Clone or download`, click it, and copy the text. It should look something like this: `https://github.com/csc-171/lab01.git`. 
+* Go back to Git Bash and enter the following (note, don't enter the `$`, it's just there to tell you that is the start of the line):
 ```
 $ git clone https://github.com/csc-171/lab01.git
-```4. Next change directory to the repo by typing:
+```
+* Next change directory to the repo by typing:
 ```
 $ cd lab01
 ```
-5. Look into the repo by typing:
+* Look into the repo by typing:
 ```
 $ ls
 ```
