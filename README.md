@@ -43,12 +43,12 @@ You see? All of the files are there! This is great right? Now you have a local c
 
 The main reason right now is because we will be using it to turn in assignments during this class. But besides that it is a very powerful tool that will help future you be successful. Here are a few reasons why git is great:
 
-* Version control, keeps all machines upto date with latest code
+* Version control, keeps all machines up to date with latest code
 * Helps keep track of conflicts on collaborative projects
 * Complete history of your projects
 * Easy testing without breaking your code
 
-On top of this, git manages all of your files for you. but to do this it has to know your file is there. Hence you have to add new files.
+On top of this, git manages all of your files for you. But to do this it has to know your file is there. Hence you have to add new files.
 
 ## Adding Files
 
@@ -56,8 +56,8 @@ Let's do some text editing. So all of us are on the same page, download and inst
 
 Let's create a new file. Do the following:
 
-1. Use Atom to create a new file in `~/lab01/` called `MyFirstJavaCode.java`.
-2. Cut and paste the following into the file:
+* Use Atom to create a new file in `~/lab01/` called `MyFirstJavaCode.java`.
+* Cut and paste the following into the file:
 ```
 public class MyFirstJavaCode {
    public static void main(String[] args) {
@@ -66,8 +66,8 @@ public class MyFirstJavaCode {
    }
 }
 ```
-3. Change `"Hello, World"` to whatever you want. Make sure and keep the quotes. Save this file.
-4. At this point Git does not even know your file exists. To see what I mean run the following in Git Bash:
+* Change `"Hello, World"` to whatever you want. Make sure and keep the quotes. Save this file.
+* At this point Git does not even know your file exists. To see what I mean run the following in Git Bash:
 ```
 $ git status
 ```
