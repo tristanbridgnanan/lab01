@@ -27,8 +27,7 @@ So now what? You have a forked repo sitting on some server. How do you get your 
 3. Go back to Git Bash and enter the following (note, don't enter the `$`, it's just there to tell you that is the start of the line):
 ```
 $ git clone https://github.com/csc-171/lab01.git
-```
-4. Next change directory to the repo by typing:
+```4. Next change directory to the repo by typing:
 ```
 $ cd lab01
 ```
