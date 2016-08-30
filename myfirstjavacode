@@ -3,3 +3,4 @@ public class MyFirstJavaCode {
       // Prints whatever you want in the terminal window.
       System.out.println("yooooo");
    }
+}
